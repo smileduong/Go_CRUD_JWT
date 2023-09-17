@@ -1,0 +1,20 @@
+Name: api-permission
+Host: 0.0.0.0
+Port: 8888
+Mode: dev
+
+Auth:
+  AccessSecret: asdaczasdas123135sdgvxcvQER23QA47579LIJD9ASUDKL132N4
+  AccessExpire: 600
+
+Mysql:
+  DataSource: "root:#Duong1091@tcp(127.0.0.1:3306)/api-greet?charset=utf8mb4&parseTime=true"
+
+Log:
+  Mode: console
+  Encoding: json
+
+Redis:
+  Host: localhost:6379
+  Pass: ""
+  Type: node  
